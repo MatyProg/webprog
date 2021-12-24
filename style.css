@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+h1 {
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+h2 {
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+p {
+    margin-bottom: 1.6em;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: black;
+    color: white;
+    padding: 2rem 0;
+    position: sticky;
+    margin-bottom: 0rem;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1.8rem;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.image-logo {
+    max-width: 100%;
+    width: 90%;
+    height:20%;
+    margin-top: 2rem;
+    padding: 20px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+.logo {
+    letter-spacing: 15px;
+    font-size: 1.2em;
+}
+.menu-icon {
+    display: none;
+}
+.navigation ul {
+    list-style: none;
+}
+.navigation ul li {
+    display: inline-block;
+}
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    background: #4a4a4a;
+}
+.contenedor-logo {
+
+    background-image: url("images/Jinx.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    width: 100%;
+    justify-content: center;
+}
+.footer {
+    background: #f2f2f2;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 0rem;
+    height: 1rem;
+    width: 100%;
+}
+.formulario {
+    background: whitesmoke;
+    padding: 1rem;
+    width: 98%;
+    height: 85%;
+}
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 400px;
+    height: 300px;
+    display:block
+}
+.personajes {
+    width: 100%;
+    height: 100%;
+    max-width: 30%;
+    margin: 0.5rem;
+    display: inline-block;
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 0 0 20px black;
+}
+.personajes-imagen {
+width: 100%;
+box-shadow: 0 0 20px #bc13fe;
+}
+.personajes-titulo {
+box-shadow: 0 0 20px grey;
+letter-spacing: 0.1em;
+}
+.personajes p {
+max-width: 800px;
+max-height: 600px;
+overflow: hidden;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
